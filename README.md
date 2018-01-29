@@ -1,48 +1,13 @@
-<!---
-
-TASK LIST:
-
-  * Use cp -rf *.* to copy all of the files and directories in this repository
-    to the starter repository for this assignment
-  * Change into the directory for the starer repository
-  * Update the header (e.g., #) to only give the name of the assignment
-  * Update the first paragraph to include the commented-out content
-  * Change the link in the # Problems section to point to this lab's starter
-  * Create the assignment in the GitHub Classroom, noting the URL
-  * Test the assignment by accepting it with your own GitHub account
-  * Check to ensure that your GitHub repository is created correctly
-  * Share the assignment link with all of the students using email or Slack
-
-PROFESSOR CREATION OF GIT SUBMODULE FOR GATORGRADER:
-
-  * If the submodule is not visible or not working, you can run:
-  * "git submodule add https://github.com/gkapfham/gatorgrader.git gatorgrader"
-
-  * If you want to ensure that the submodule is working in a starter,
-  * then you can "rm -rf .gitmodules" and "rm -rf gatorgrader" first.
-  * Now, you can run the above "git submodule" command above.
-
-PROBLEMS?
-
-  * Contact Gregory M. Kapfhammer by email or Slack
-  * Raise an issue in the GitHub repository for this assignment
-
--->
-
-# cs111s2018-lab3-solution
+# cs111s2018-lab2-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 3 in Computer Science 111.
+repository contains the starter repository for Laboratory 2 in Computer Science 111.
 
-<!---
-
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- programmer is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
-
---->
+Since the Travis builds for this repository will initially fail (as evidenced by
+a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
+programmer is responsible for completing all of the steps needed to satisfy the
+requirements for the assignment, thus causing a &#x2714; to instead appear in
+the commit logs.
 
 ## Introduction
 
@@ -54,7 +19,8 @@ textual values, with the final two lines thanking a person for using the
 `TipCalculator`. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
 `TipCalculator.java` file must adhere to all of the requirements in the [Google
-Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+Java Style Guide](https://google.github.io/styleguide/javaguide.html), including
+the addition of the Javadoc comments.
 
 The programmer is also responsible for writing a one-paragraph reflection,
 stored in the file `writing/reflection.md`, that explains the challenges that
@@ -142,15 +108,15 @@ adheres to all of the requirements for the assignment and passes all of the
 verification checks, your version may produce (partially) different output.
 
 ```
-Janyl Jumadinova Tue Jan 30 11:15:23 EDT 2018
-Timothy, welcome to the tip calculator.
-The amount of your bill is: $50.0
-The percentage you want to tip is: 15.0%
-Alright, that means your total tip will be: $7.5
-Timothy, your total bill is: $57.5
+Janyl Jumadinova Mon Jan 29 14:31:34 EST 2018
+Jazmin, welcome to the tip calculator.
+The amount of your bill is: $55.8
+The percentage you want to tip is: 20.0%
+Alright, that means your total tip will be: $11.16
+Jazmin, your total bill is: $66.96
 Okay, I see that there are 2 people in your group.
-So, that means each person must pay: $28.75
-Thanks for using the tip calculator.
+So, that means each person must pay: $33.48
+Thanks for using the tip calculator. 
 Have an awesome day.
 ```
 
@@ -184,15 +150,11 @@ the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
 assignment, then you can follow the aforementioned steps to create an issue in
 its repository. To ensure that your issue is properly resolved, please provide
-as many details as is possible about the problem that you experienced. If you
-discover a problem with the laboratory assignment sheet, then please raise an
-issue in the
-[cs111-F2017-lab-sheets](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets)
-repository and mention this assignment.
+as many details as is possible about the problem that you experienced. 
 
 Students who find, and use the appropriate GitHub issue tracker to correctly
 document, a mistake in any aspect of this laboratory assignment will receive
-free laptop stickers and extra credit towards their grade for it.
+extra credit towards their grade for it.
 
 ## Assistance
 
