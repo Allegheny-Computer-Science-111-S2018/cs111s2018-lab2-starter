@@ -1,3 +1,6 @@
+# Mac
+*.DS_Store
+
 # Compiled source #
 ###################
 *.class
@@ -223,4 +226,3 @@ tags.tmp
 *.xmi
 *.sync
 *.jekyll-metadata
-*.DS_STORE
