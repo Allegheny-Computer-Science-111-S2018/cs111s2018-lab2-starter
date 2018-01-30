@@ -129,6 +129,32 @@ your own private repository, and the course instructor enables Travis for it. If
 you are using Travis for the first time, you will need to authorize Travis CI to
 access the private repositories that you created on GitHub.
 
+## Updates
+
+If the course instructor updates the provided material for this assignment and
+you would like to receive these updates, then you can type this command in the
+main directory for this assignment:
+
+```
+./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-111-S2018/cs111s2018-lab2-starter.git
+```
+
+You should only need to type this command once; typing the command additional
+times may yield an error message but will not negatively influence the state of
+your repository. Now, you are ready to download the updates provided by the
+course instructor by typing:
+
+```
+./gatorgrader.sh --download
+```
+
+This second command can be run whenever the course instructor needs to provide
+you with new source code for this assignment. However, please note that, if you
+have edited the files that the course instructor updated, running the previous
+command may lead to Git merge conflicts. If this happens, you may need to
+manually resolve them with the help of the instructor or a teaching assistant.
+./gatorgrader.sh --download
+
 ## Requirements
 
 The GatorGrader software that supports the checking of this assignment was
