@@ -1,3 +1,3 @@
-# Reflection by Gregory M. Kapfhammer
+# Reflection by Janyl Jumadinova
 
-This lab required me to write a program called `TipCalculator`
+This lab required me to write a program called `TipCalculator`.

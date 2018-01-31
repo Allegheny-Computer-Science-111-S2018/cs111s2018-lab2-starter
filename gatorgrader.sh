@@ -168,7 +168,7 @@ if [ "$CHECK" = true ]; then
   python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle -q --console plain run" --fragments "33.48"
   determine_exit_code $?
   # --> GatorGrader CHECK: the repository contains at least five commits
-  python3 gatorgrader/gatorgrader.py --nowelcome --commits 5
+  python3 gatorgrader/gatorgrader.py --nowelcome --commits 12
   determine_exit_code $?
  echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
